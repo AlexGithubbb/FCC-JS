@@ -10,7 +10,7 @@
 //   }
 //   return newArr;
 // }
-function chunkyMonkey(arr, size, n) {
+function chunkyMonkey(arr, size, n, i) {
   let newArr = [];
   newArr.push(arr.slice(size * n, size * (n + 1)));
   if (n < arr.length / size) {
